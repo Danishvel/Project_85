@@ -15,7 +15,7 @@ c2_Y = 100;
 
 image_Num = ["racing.jpg", "1.jpg", "2.jpg", "3.jpg"];
 
-ra_number = Math.floor(Math.random()*6);
+ra_number = Math.floor(Math.random()*4);
 bg_I = image_Num[ra_number];
 
 function add(){
@@ -97,6 +97,7 @@ function car1_up() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car1_Status").innerHTML = "Car1 Is Going Up...";
     }
 }
 
@@ -107,6 +108,7 @@ function car1_down() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car1_Status").innerHTML = "Car1 Is Going Down...";
     }
 }
 
@@ -117,6 +119,7 @@ function car1_left() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car1_Status").innerHTML = "Car1 Is Going Left...";
     }
 }
 
@@ -127,6 +130,7 @@ function car1_right() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car1_Status").innerHTML = "Car1 Is Going Right...";
     }
 }
 
@@ -137,6 +141,7 @@ function car2_up() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car2_Status").innerHTML = "Car2 Is Going Up...";
     }
 }
 
@@ -147,6 +152,7 @@ function car2_down() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car2_Status").innerHTML = "Car2 Is Going Down...";
     }
 }
 
@@ -157,6 +163,7 @@ function car2_left() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car2_Status").innerHTML = "Car2 Is Going Left...";
     }
 }
 
@@ -167,5 +174,6 @@ function car2_right() {
         uploadbg();
         uploadc1();
         uploadc2();
+        document.getElementById("Car2_Status").innerHTML = "Car2 Is Going Right...";
     }
 }
